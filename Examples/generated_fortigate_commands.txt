@@ -1,0 +1,646 @@
+config firewall address
+    edit IOC_['APT31']_1
+        set associated-interface "any"
+        set subnet 105.154.12.165 255.255.255.255
+    next
+    edit IOC_['APT31']_2
+        set associated-interface "any"
+        set subnet 105.157.234.0 255.255.255.255
+    next
+    edit IOC_['APT31']_3
+        set associated-interface "any"
+        set subnet 105.159.122.85 255.255.255.255
+    next
+    edit IOC_['APT31']_4
+        set associated-interface "any"
+        set subnet 110.36.231.150 255.255.255.255
+    next
+    edit IOC_['APT31']_5
+        set associated-interface "any"
+        set subnet 115.133.136.29 255.255.255.255
+    next
+    edit IOC_['APT31']_6
+        set associated-interface "any"
+        set subnet 115.31.133.26 255.255.255.255
+    next
+    edit IOC_['APT31']_7
+        set associated-interface "any"
+        set subnet 119.110.222.94 255.255.255.255
+    next
+    edit IOC_['APT31']_8
+        set associated-interface "any"
+        set subnet 121.121.46.10 255.255.255.255
+    next
+    edit IOC_['APT31']_9
+        set associated-interface "any"
+        set subnet 122.154.56.106 255.255.255.255
+    next
+    edit IOC_['APT31']_10
+        set associated-interface "any"
+        set subnet 125.25.204.59 255.255.255.255
+    next
+    edit IOC_['APT31']_11
+        set associated-interface "any"
+        set subnet 125.31.50.150 255.255.255.255
+    next
+    edit IOC_['APT31']_12
+        set associated-interface "any"
+        set subnet 141.101.253.109 255.255.255.255
+    next
+    edit IOC_['APT31']_13
+        set associated-interface "any"
+        set subnet 147.50.50.50 255.255.255.255
+    next
+    edit IOC_['APT31']_14
+        set associated-interface "any"
+        set subnet 154.181.248.88 255.255.255.255
+    next
+    edit IOC_['APT31']_15
+        set associated-interface "any"
+        set subnet 154.182.91.196 255.255.255.255
+    next
+    edit IOC_['APT31']_16
+        set associated-interface "any"
+        set subnet 156.222.101.141 255.255.255.255
+    next
+    edit IOC_['APT31']_17
+        set associated-interface "any"
+        set subnet 156.222.156.41 255.255.255.255
+    next
+    edit IOC_['APT31']_18
+        set associated-interface "any"
+        set subnet 156.222.19.219 255.255.255.255
+    next
+    edit IOC_['APT31']_19
+        set associated-interface "any"
+        set subnet 156.222.191.87 255.255.255.255
+    next
+    edit IOC_['APT31']_20
+        set associated-interface "any"
+        set subnet 156.222.199.111 255.255.255.255
+    next
+    edit IOC_['APT31']_21
+        set associated-interface "any"
+        set subnet 156.222.200.181 255.255.255.255
+    next
+    edit IOC_['APT31']_22
+        set associated-interface "any"
+        set subnet 156.222.223.10 255.255.255.255
+    next
+    edit IOC_['APT31']_23
+        set associated-interface "any"
+        set subnet 156.222.224.102 255.255.255.255
+    next
+    edit IOC_['APT31']_24
+        set associated-interface "any"
+        set subnet 156.222.227.118 255.255.255.255
+    next
+    edit IOC_['APT31']_25
+        set associated-interface "any"
+        set subnet 156.222.38.116 255.255.255.255
+    next
+    edit IOC_['APT31']_26
+        set associated-interface "any"
+        set subnet 156.222.38.228 255.255.255.255
+    next
+    edit IOC_['APT31']_27
+        set associated-interface "any"
+        set subnet 156.222.65.235 255.255.255.255
+    next
+    edit IOC_['APT31']_28
+        set associated-interface "any"
+        set subnet 156.222.78.64 255.255.255.255
+    next
+    edit IOC_['APT31']_29
+        set associated-interface "any"
+        set subnet 156.222.94.34 255.255.255.255
+    next
+    edit IOC_['APT31']_30
+        set associated-interface "any"
+        set subnet 160.178.109.226 255.255.255.255
+    next
+    edit IOC_['APT31']_31
+        set associated-interface "any"
+        set subnet 160.178.113.149 255.255.255.255
+    next
+    edit IOC_['APT31']_32
+        set associated-interface "any"
+        set subnet 160.178.122.34 255.255.255.255
+    next
+    edit IOC_['APT31']_33
+        set associated-interface "any"
+        set subnet 160.179.31.245 255.255.255.255
+    next
+    edit IOC_['APT31']_34
+        set associated-interface "any"
+        set subnet 171.103.162.14 255.255.255.255
+    next
+    edit IOC_['APT31']_35
+        set associated-interface "any"
+        set subnet 176.121.49.36 255.255.255.255
+    next
+    edit IOC_['APT31']_36
+        set associated-interface "any"
+        set subnet 178.149.149.64 255.255.255.255
+    next
+    edit IOC_['APT31']_37
+        set associated-interface "any"
+        set subnet 178.206.229.139 255.255.255.255
+    next
+    edit IOC_['APT31']_38
+        set associated-interface "any"
+        set subnet 178.252.136.130 255.255.255.255
+    next
+    edit IOC_['APT31']_39
+        set associated-interface "any"
+        set subnet 181.114.56.146 255.255.255.255
+    next
+    edit IOC_['APT31']_40
+        set associated-interface "any"
+        set subnet 181.143.127.50 255.255.255.255
+    next
+    edit IOC_['APT31']_41
+        set associated-interface "any"
+        set subnet 182.52.218.11 255.255.255.255
+    next
+    edit IOC_['APT31']_42
+        set associated-interface "any"
+        set subnet 185.125.231.175 255.255.255.255
+    next
+    edit IOC_['APT31']_43
+        set associated-interface "any"
+        set subnet 185.13.46.161 255.255.255.255
+    next
+    edit IOC_['APT31']_44
+        set associated-interface "any"
+        set subnet 185.135.233.135 255.255.255.255
+    next
+    edit IOC_['APT31']_45
+        set associated-interface "any"
+        set subnet 185.233.186.152 255.255.255.255
+    next
+    edit IOC_['APT31']_46
+        set associated-interface "any"
+        set subnet 185.244.45.123 255.255.255.255
+    next
+    edit IOC_['APT31']_47
+        set associated-interface "any"
+        set subnet 186.18.129.164 255.255.255.255
+    next
+    edit IOC_['APT31']_48
+        set associated-interface "any"
+        set subnet 186.188.226.99 255.255.255.255
+    next
+    edit IOC_['APT31']_49
+        set associated-interface "any"
+        set subnet 189.121.150.254 255.255.255.255
+    next
+    edit IOC_['APT31']_50
+        set associated-interface "any"
+        set subnet 189.89.55.24 255.255.255.255
+    next
+    edit IOC_['APT31']_51
+        set associated-interface "any"
+        set subnet 190.215.240.102 255.255.255.255
+    next
+    edit IOC_['APT31']_52
+        set associated-interface "any"
+        set subnet 190.215.241.146 255.255.255.255
+    next
+    edit IOC_['APT31']_53
+        set associated-interface "any"
+        set subnet 192.162.103.168 255.255.255.255
+    next
+    edit IOC_['APT31']_54
+        set associated-interface "any"
+        set subnet 193.242.176.251 255.255.255.255
+    next
+    edit IOC_['APT31']_55
+        set associated-interface "any"
+        set subnet 194.5.79.21 255.255.255.255
+    next
+    edit IOC_['APT31']_56
+        set associated-interface "any"
+        set subnet 195.91.209.21 255.255.255.255
+    next
+    edit IOC_['APT31']_57
+        set associated-interface "any"
+        set subnet 195.91.239.226 255.255.255.255
+    next
+    edit IOC_['APT31']_58
+        set associated-interface "any"
+        set subnet 196.206.181.146 255.255.255.255
+    next
+    edit IOC_['APT31']_59
+        set associated-interface "any"
+        set subnet 196.217.199.166 255.255.255.255
+    next
+    edit IOC_['APT31']_60
+        set associated-interface "any"
+        set subnet 196.64.185.13 255.255.255.255
+    next
+    edit IOC_['APT31']_61
+        set associated-interface "any"
+        set subnet 197.52.253.45 255.255.255.255
+    next
+    edit IOC_['APT31']_62
+        set associated-interface "any"
+        set subnet 197.53.100.117 255.255.255.255
+    next
+    edit IOC_['APT31']_63
+        set associated-interface "any"
+        set subnet 197.53.106.152 255.255.255.255
+    next
+    edit IOC_['APT31']_64
+        set associated-interface "any"
+        set subnet 197.53.122.134 255.255.255.255
+    next
+    edit IOC_['APT31']_65
+        set associated-interface "any"
+        set subnet 197.53.122.144 255.255.255.255
+    next
+    edit IOC_['APT31']_66
+        set associated-interface "any"
+        set subnet 197.53.21.0 255.255.255.255
+    next
+    edit IOC_['APT31']_67
+        set associated-interface "any"
+        set subnet 197.53.21.180 255.255.255.255
+    next
+    edit IOC_['APT31']_68
+        set associated-interface "any"
+        set subnet 197.53.21.198 255.255.255.255
+    next
+    edit IOC_['APT31']_69
+        set associated-interface "any"
+        set subnet 197.53.56.168 255.255.255.255
+    next
+    edit IOC_['APT31']_70
+        set associated-interface "any"
+        set subnet 197.53.6.226 255.255.255.255
+    next
+    edit IOC_['APT31']_71
+        set associated-interface "any"
+        set subnet 197.53.60.223 255.255.255.255
+    next
+    edit IOC_['APT31']_72
+        set associated-interface "any"
+        set subnet 197.53.70.114 255.255.255.255
+    next
+    edit IOC_['APT31']_73
+        set associated-interface "any"
+        set subnet 197.53.78.134 255.255.255.255
+    next
+    edit IOC_['APT31']_74
+        set associated-interface "any"
+        set subnet 197.53.98.19 255.255.255.255
+    next
+    edit IOC_['APT31']_75
+        set associated-interface "any"
+        set subnet 2.176.206.42 255.255.255.255
+    next
+    edit IOC_['APT31']_76
+        set associated-interface "any"
+        set subnet 2.176.220.97 255.255.255.255
+    next
+    edit IOC_['APT31']_77
+        set associated-interface "any"
+        set subnet 2.176.234.36 255.255.255.255
+    next
+    edit IOC_['APT31']_78
+        set associated-interface "any"
+        set subnet 2.50.208.83 255.255.255.255
+    next
+    edit IOC_['APT31']_79
+        set associated-interface "any"
+        set subnet 2.50.210.146 255.255.255.255
+    next
+    edit IOC_['APT31']_80
+        set associated-interface "any"
+        set subnet 2.50.217.75 255.255.255.255
+    next
+    edit IOC_['APT31']_81
+        set associated-interface "any"
+        set subnet 2.50.252.96 255.255.255.255
+    next
+    edit IOC_['APT31']_82
+        set associated-interface "any"
+        set subnet 200.125.167.170 255.255.255.255
+    next
+    edit IOC_['APT31']_83
+        set associated-interface "any"
+        set subnet 201.156.106.72 255.255.255.255
+    next
+    edit IOC_['APT31']_84
+        set associated-interface "any"
+        set subnet 201.164.47.86 255.255.255.255
+    next
+    edit IOC_['APT31']_85
+        set associated-interface "any"
+        set subnet 201.164.47.90 255.255.255.255
+    next
+    edit IOC_['APT31']_86
+        set associated-interface "any"
+        set subnet 203.114.106.194 255.255.255.255
+    next
+    edit IOC_['APT31']_87
+        set associated-interface "any"
+        set subnet 203.151.67.66 255.255.255.255
+    next
+    edit IOC_['APT31']_88
+        set associated-interface "any"
+        set subnet 203.156.162.146 255.255.255.255
+    next
+    edit IOC_['APT31']_89
+        set associated-interface "any"
+        set subnet 208.26.93.179 255.255.255.255
+    next
+    edit IOC_['APT31']_90
+        set associated-interface "any"
+        set subnet 210.86.173.106 255.255.255.255
+    next
+    edit IOC_['APT31']_91
+        set associated-interface "any"
+        set subnet 212.164.223.156 255.255.255.255
+    next
+    edit IOC_['APT31']_92
+        set associated-interface "any"
+        set subnet 213.24.124.154 255.255.255.255
+    next
+    edit IOC_['APT31']_93
+        set associated-interface "any"
+        set subnet 217.131.2.188 255.255.255.255
+    next
+    edit IOC_['APT31']_94
+        set associated-interface "any"
+        set subnet 217.66.21.23 255.255.255.255
+    next
+    edit IOC_['APT31']_95
+        set associated-interface "any"
+        set subnet 217.72.4.161 255.255.255.255
+    next
+    edit IOC_['APT31']_96
+        set associated-interface "any"
+        set subnet 219.92.167.217 255.255.255.255
+    next
+    edit IOC_['APT31']_97
+        set associated-interface "any"
+        set subnet 219.94.88.113 255.255.255.255
+    next
+    edit IOC_['APT31']_98
+        set associated-interface "any"
+        set subnet 219.95.129.5 255.255.255.255
+    next
+    edit IOC_['APT31']_99
+        set associated-interface "any"
+        set subnet 23.111.204.172 255.255.255.255
+    next
+    edit IOC_['APT31']_100
+        set associated-interface "any"
+        set subnet 23.111.204.33 255.255.255.255
+    next
+    edit IOC_['APT31']_101
+        set associated-interface "any"
+        set subnet 31.184.198.158 255.255.255.255
+    next
+    edit IOC_['APT31']_102
+        set associated-interface "any"
+        set subnet 37.110.66.249 255.255.255.255
+    next
+    edit IOC_['APT31']_103
+        set associated-interface "any"
+        set subnet 37.230.147.163 255.255.255.255
+    next
+    edit IOC_['APT31']_104
+        set associated-interface "any"
+        set subnet 41.141.191.244 255.255.255.255
+    next
+    edit IOC_['APT31']_105
+        set associated-interface "any"
+        set subnet 41.141.68.24 255.255.255.255
+    next
+    edit IOC_['APT31']_106
+        set associated-interface "any"
+        set subnet 41.233.81.90 255.255.255.255
+    next
+    edit IOC_['APT31']_107
+        set associated-interface "any"
+        set subnet 41.233.86.14 255.255.255.255
+    next
+    edit IOC_['APT31']_108
+        set associated-interface "any"
+        set subnet 41.250.135.152 255.255.255.255
+    next
+    edit IOC_['APT31']_109
+        set associated-interface "any"
+        set subnet 41.251.47.226 255.255.255.255
+    next
+    edit IOC_['APT31']_110
+        set associated-interface "any"
+        set subnet 41.251.49.41 255.255.255.255
+    next
+    edit IOC_['APT31']_111
+        set associated-interface "any"
+        set subnet 41.251.68.5 255.255.255.255
+    next
+    edit IOC_['APT31']_112
+        set associated-interface "any"
+        set subnet 41.251.84.81 255.255.255.255
+    next
+    edit IOC_['APT31']_113
+        set associated-interface "any"
+        set subnet 45.135.232.165 255.255.255.255
+    next
+    edit IOC_['APT31']_114
+        set associated-interface "any"
+        set subnet 45.156.23.115 255.255.255.255
+    next
+    edit IOC_['APT31']_115
+        set associated-interface "any"
+        set subnet 45.156.23.129 255.255.255.255
+    next
+    edit IOC_['APT31']_116
+        set associated-interface "any"
+        set subnet 45.156.24.29 255.255.255.255
+    next
+    edit IOC_['APT31']_117
+        set associated-interface "any"
+        set subnet 46.188.5.39 255.255.255.255
+    next
+    edit IOC_['APT31']_118
+        set associated-interface "any"
+        set subnet 46.39.255.60 255.255.255.255
+    next
+    edit IOC_['APT31']_119
+        set associated-interface "any"
+        set subnet 49.0.114.254 255.255.255.255
+    next
+    edit IOC_['APT31']_120
+        set associated-interface "any"
+        set subnet 5.143.219.230 255.255.255.255
+    next
+    edit IOC_['APT31']_121
+        set associated-interface "any"
+        set subnet 5.250.232.108 255.255.255.255
+    next
+    edit IOC_['APT31']_122
+        set associated-interface "any"
+        set subnet 5.8.16.49 255.255.255.255
+    next
+    edit IOC_['APT31']_123
+        set associated-interface "any"
+        set subnet 60.249.95.79 255.255.255.255
+    next
+    edit IOC_['APT31']_124
+        set associated-interface "any"
+        set subnet 77.238.243.149 255.255.255.255
+    next
+    edit IOC_['APT31']_125
+        set associated-interface "any"
+        set subnet 77.37.239.252 255.255.255.255
+    next
+    edit IOC_['APT31']_126
+        set associated-interface "any"
+        set subnet 77.51.8.232 255.255.255.255
+    next
+    edit IOC_['APT31']_127
+        set associated-interface "any"
+        set subnet 79.104.38.166 255.255.255.255
+    next
+    edit IOC_['APT31']_128
+        set associated-interface "any"
+        set subnet 79.174.160.226 255.255.255.255
+    next
+    edit IOC_['APT31']_129
+        set associated-interface "any"
+        set subnet 80.87.145.183 255.255.255.255
+    next
+    edit IOC_['APT31']_130
+        set associated-interface "any"
+        set subnet 81.25.49.97 255.255.255.255
+    next
+    edit IOC_['APT31']_131
+        set associated-interface "any"
+        set subnet 81.25.50.223 255.255.255.255
+    next
+    edit IOC_['APT31']_132
+        set associated-interface "any"
+        set subnet 82.99.201.163 255.255.255.255
+    next
+    edit IOC_['APT31']_133
+        set associated-interface "any"
+        set subnet 83.221.216.112 255.255.255.255
+    next
+    edit IOC_['APT31']_134
+        set associated-interface "any"
+        set subnet 85.133.190.41 255.255.255.255
+    next
+    edit IOC_['APT31']_135
+        set associated-interface "any"
+        set subnet 85.31.112.124 255.255.255.255
+    next
+    edit IOC_['APT31']_136
+        set associated-interface "any"
+        set subnet 86.98.61.33 255.255.255.255
+    next
+    edit IOC_['APT31']_137
+        set associated-interface "any"
+        set subnet 88.247.129.12 255.255.255.255
+    next
+    edit IOC_['APT31']_138
+        set associated-interface "any"
+        set subnet 91.122.59.121 255.255.255.255
+    next
+    edit IOC_['APT31']_139
+        set associated-interface "any"
+        set subnet 92.119.230.140 255.255.255.255
+    next
+    edit IOC_['APT31']_140
+        set associated-interface "any"
+        set subnet 92.253.218.27 255.255.255.255
+    next
+    edit IOC_['APT31']_141
+        set associated-interface "any"
+        set subnet 92.96.172.161 255.255.255.255
+    next
+    edit IOC_['APT31']_142
+        set associated-interface "any"
+        set subnet 92.96.174.14 255.255.255.255
+    next
+    edit IOC_['APT31']_143
+        set associated-interface "any"
+        set subnet 92.96.89.114 255.255.255.255
+    next
+    edit IOC_['APT31']_144
+        set associated-interface "any"
+        set subnet 92.96.91.76 255.255.255.255
+    next
+    edit IOC_['APT31']_145
+        set associated-interface "any"
+        set subnet 92.99.76.225 255.255.255.255
+    next
+    edit IOC_['APT31']_146
+        set associated-interface "any"
+        set subnet 93.115.146.161 255.255.255.255
+    next
+    edit IOC_['APT31']_147
+        set associated-interface "any"
+        set subnet 94.159.55.14 255.255.255.255
+    next
+    edit IOC_['APT31']_148
+        set associated-interface "any"
+        set subnet 94.204.190.135 255.255.255.255
+    next
+    edit IOC_['APT31']_149
+        set associated-interface "any"
+        set subnet 94.228.245.225 255.255.255.255
+    next
+    edit IOC_['APT31']_150
+        set associated-interface "any"
+        set subnet 94.59.209.77 255.255.255.255
+    next
+    edit IOC_['APT31']_151
+        set associated-interface "any"
+        set subnet 94.59.70.225 255.255.255.255
+    next
+    edit IOC_['APT31']_152
+        set associated-interface "any"
+        set subnet 95.143.219.229 255.255.255.255
+    next
+    edit IOC_['APT31']_153
+        set associated-interface "any"
+        set subnet 95.143.219.230 255.255.255.255
+    next
+    edit IOC_['APT31']_154
+        set associated-interface "any"
+        set subnet 95.165.146.19 255.255.255.255
+    next
+    edit IOC_['APT31']_155
+        set associated-interface "any"
+        set subnet 95.165.99.181 255.255.255.255
+    next
+    edit IOC_['APT31']_156
+        set associated-interface "any"
+        set subnet 95.72.64.85 255.255.255.255
+    next
+    edit IOC_['APT31']_157
+        set associated-interface "any"
+        set subnet 95.73.114.8 255.255.255.255
+    next
+    edit IOC_['APT31']_158
+        set associated-interface "any"
+        set subnet 95.73.116.205 255.255.255.255
+    next
+    edit IOC_['APT31']_159
+        set associated-interface "any"
+        set subnet 95.73.248.195 255.255.255.255
+    next
+    edit IOC_['APT31']_160
+        set associated-interface "any"
+        set subnet 95.73.248.63 255.255.255.255
+    next
+    edit IOC_['APT31']_161
+        set associated-interface "any"
+        set subnet 95.73.249.55 255.255.255.255
+    next
+end
